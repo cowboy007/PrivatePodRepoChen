@@ -8,7 +8,7 @@ Pod::Spec.new do |s|
   s.homepage     = "https://github.com/cowboy007/PrivatePodRepoChen" # 你的主页
   s.source       = { :git => "https://github.com/cowboy007/PrivatePodRepoChen.git", :tag => "#{s.version}" }
   #你的仓库地址，不能用SSH地址，【commit提交节点辅助用来定位代码具体位置，没有commit如果验证不通过，可以加上再验证一下(,:commit #=>"881748cfe6ef0dd445978df5c848fb0ff09d2ec4")】
-  s.source_files = "ddd/**/*" # 你代码的位置
+  s.source_files = "ddd/**/*.{h,m}" # 你代码的位置
   s.requires_arc = true # 是否启用ARC
   s.platform     = :ios, "7.0" #平台及支持的最低版本
   s.frameworks   = "UIKit", "Foundation" #支持的框架
